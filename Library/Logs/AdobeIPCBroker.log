@@ -1,0 +1,40 @@
+﻿2020-05-10 18:21:56.576 AdobeIPCBroker[52437:1146820] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2020-05-10 18:21:56:667 : ERROR vcfoundation::io::VCEndOfFile: <End Of File>
+Trace: 0   AdobeIPCBroker                      0x000000010b9c3342 AdobeIPCBroker + 160578
+1   AdobeIPCBroker                      0x000000010b9bf6eb AdobeIPCBroker + 145131
+2   AdobeIPCBroker                      0x000000010b9c0147 AdobeIPCBroker + 147783
+3   AdobeIPCBroker                      0x000000010b9bfacb AdobeIPCBroker + 146123
+4   AdobeIPCBroker                      0x000000010b9c58e8 AdobeIPCBroker + 170216
+5   AdobeIPCBroker                      0x000000010b9c5716 AdobeIPCBroker + 169750
+6   AdobeIPCBroker                      0x000000010b9c4765 AdobeIPCBroker + 165733
+7   AdobeIPCBroker                      0x000000010b9c814d AdobeIPCBroker + 180557
+8   libsystem_pthread.dylib             0x00007fff6893a109 _pthread_start + 148
+9   libsystem_pthread.dylib             0x00007fff68935b8b thread_start + 15
+
+2020-05-10 18:21:56:722 : ERROR vcfoundation::io::VCEndOfFile: send() failed <32: Broken pipe>
+Trace: 0   AdobeIPCBroker                      0x000000010b9c3342 AdobeIPCBroker + 160578
+1   AdobeIPCBroker                      0x000000010b9c2d73 AdobeIPCBroker + 159091
+2   AdobeIPCBroker                      0x000000010b9c83d8 AdobeIPCBroker + 181208
+3   AdobeIPCBroker                      0x000000010b9c700e AdobeIPCBroker + 176142
+4   AdobeIPCBroker                      0x000000010b9c51bb AdobeIPCBroker + 168379
+5   AdobeIPCBroker                      0x000000010b9c59af AdobeIPCBroker + 170415
+6   AdobeIPCBroker                      0x000000010b9c5716 AdobeIPCBroker + 169750
+7   AdobeIPCBroker                      0x000000010b9c4765 AdobeIPCBroker + 165733
+8   AdobeIPCBroker                      0x000000010b9c814d AdobeIPCBroker + 180557
+9   libsystem_pthread.dylib             0x00007fff6893a109 _pthread_start + 148
+10  libsystem_pthread.dylib             0x00007fff68935b8b thread_start + 15
+
+2020-05-10 18:21:56:958 : ERROR vcfoundation::io::VCEndOfFile: <End Of File>
+Trace: 0   AdobeIPCBroker                      0x000000010b9c3342 AdobeIPCBroker + 160578
+1   AdobeIPCBroker                      0x000000010b9bf6eb AdobeIPCBroker + 145131
+2   AdobeIPCBroker                      0x000000010b9c0147 AdobeIPCBroker + 147783
+3   AdobeIPCBroker                      0x000000010b9bfacb AdobeIPCBroker + 146123
+4   AdobeIPCBroker                      0x000000010b9c58e8 AdobeIPCBroker + 170216
+5   AdobeIPCBroker                      0x000000010b9c5716 AdobeIPCBroker + 169750
+6   AdobeIPCBroker                      0x000000010b9c4765 AdobeIPCBroker + 165733
+7   AdobeIPCBroker                      0x000000010b9c814d AdobeIPCBroker + 180557
+8   libsystem_pthread.dylib             0x00007fff6893a109 _pthread_start + 148
+9   libsystem_pthread.dylib             0x00007fff68935b8b thread_start + 15
+
+2020-05-10 18:21:57.043 AdobeIPCBroker[52437:1146814] HIToolbox: received notification of WindowServer event port death.
+2020-05-10 18:21:57.043 AdobeIPCBroker[52437:1146814] port matched the WindowServer port created in BindCGSToRunLoop
